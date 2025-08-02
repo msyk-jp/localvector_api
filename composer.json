@@ -1,0 +1,21 @@
+{
+    "name": "yourname/vector-api-client",
+    "description": "Laravel service for local vector API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "VectorApiClient\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VectorApiClient\\VectorApiServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    }
+}
